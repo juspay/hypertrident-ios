@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HyperTrident",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.4/HyperTrident.zip",
-            checksum: "0b801e87ea2145cdd203f9f3897ebb33d51fea2a112f9b92c7dd42c51d586898"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.4.15/HyperTrident.zip",
+            checksum: "a1f83538e124489f92ed4f2481975ec178e8f8c9553b6305049493d0c4ed58bc"
         ),
         .target(
             name: "HyperTridentDependencies",
