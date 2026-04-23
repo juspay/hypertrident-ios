@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "HyperTrident",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HyperTrident",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.1/HyperTrident.zip",
-            checksum: "508d0b956498a1d8883ebe9540635371a6db407bdfb1e871b054e8e5a0705558"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.2/HyperTrident.zip",
+            checksum: "91f216b66f9ad593877d27b72916a93ac88fd259c4f134a7b58c10b18c58e8e0"
         ),
         .target(
             name: "HyperTridentDependencies",
