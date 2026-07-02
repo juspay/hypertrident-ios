@@ -13,13 +13,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "Trident3DS", url: "https://github.com/juspay/trident3ds-ios.git", .exact("1.0.5"))
+        .package(name: "Trident3DS", url: "https://github.com/juspay/trident3ds-ios.git", .exact("2.0.0"))
     ],
     targets: [
         .binaryTarget(
             name: "HyperTrident",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.8/HyperTrident.zip",
-            checksum: "cf79b7df603a549a78137049bc7f0e894a614e167459632142b0e4e34e115717"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.8.1/HyperTrident.zip",
+            checksum: "182af7ffda8ede6c61ab85dac0333d8b163ebb9e8218596f77fa513121bcc1ed"
         ),
         .target(
             name: "HyperTridentDependencies",
